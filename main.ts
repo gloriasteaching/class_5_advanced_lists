@@ -8,5 +8,6 @@ let fibonacci = [
 let Amongus = ["amongus", "is", "cool"]
 let _: number[] = []
 game.splash(Amongus[0])
-Amongus[0] = "momongus"
+Amongus.insertAt(0, " yo soy")
 game.splash(Amongus[0])
+info.setScore(Amongus.length)
