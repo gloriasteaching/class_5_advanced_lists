@@ -5,6 +5,8 @@ let fibonacci = [
 3,
 5
 ]
-let Amongus = ["a", "mon", "gus"]
+let Amongus = ["amongus", "is", "cool"]
 let _: number[] = []
-info.setScore(Amongus.length)
+game.splash(Amongus[0])
+Amongus[0] = "momongus"
+game.splash(Amongus[0])
