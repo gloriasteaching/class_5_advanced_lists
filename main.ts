@@ -9,5 +9,7 @@ let text_list = ["amongus", "is", "cool"]
 let empty_list: number[] = []
 game.splash(text_list.removeAt(0))
 info.setScore(text_list.length)
+game.splash(info.score())
 game.splash(text_list)
-info.setScore(text_list.indexOf("cool"))
+info.setScore(text_list.indexOf("is"))
+game.splash(info.score())
