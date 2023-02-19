@@ -1,5 +1,5 @@
 {
-    "name": "Class_5_Advanced_lists",
+    "name": "Class_6_Advanced_lists",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -14,7 +14,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.17",
+        "target": "1.12.21",
         "targetId": "arcade"
     },
     "supportedTargets": [

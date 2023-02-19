@@ -5,9 +5,7 @@ let fibonacci = [
 3,
 5
 ]
-let Amongus = ["amongus", "is", "cool"]
-let _: number[] = []
-game.splash(Amongus[0])
-Amongus.insertAt(0, " yo soy")
-game.splash(Amongus[0])
-info.setScore(Amongus.length)
+let text_list = ["amongus", "is", "cool"]
+let empty_list: number[] = []
+game.splash(text_list.removeAt(0))
+info.setScore(text_list.length)
